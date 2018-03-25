@@ -1,0 +1,168 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body
+{   
+  width: 100%;
+  user-select: none;
+  font-family: 'Roboto Mono', monospace;
+}
+a {
+  color: #203de0;
+  overflow: hidden;
+  padding: 0 4px;
+  text-decoration: none;
+  transition: all .6s linear;
+}
+h2 {padding: 2% 0;}
+p {
+  font-size: 20px;
+  padding: 2% 0;
+}
+section {padding: 3% 0;}
+
+i
+{
+  padding: 4% 0;
+  color: #fff;
+  transition: color 1s linear;
+}
+i:hover {color: #000;}
+.clear{clear: both;}
+.container{margin:0 10%;}
+.fl{float: left;}
+.fr{float: right;}
+
+/************/
+
+/** Navbar **/
+header {
+  background: #fff;
+  padding: 1% 0;
+  }
+  header * {color:#000;}
+
+  h1 {font-size: 20px;}
+  .HAC:hover{
+    background: #009688;
+  }
+  .javascript:hover{
+    background: #EAC80D;
+  }
+  .git:hover{
+    background: #FB4F28;
+  }
+  .github:hover{
+    background: #5A5A5A;
+    color: #fff;
+  }
+/** End-Navbar **/
+
+/** Udacity **/
+.udacity {
+  color: #fff;
+  width: 100%;
+  height: 550px;
+  background: url(../images/udacity.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 1.3em;
+  }
+  .info-udacity {width: 60%;}
+  .icons-udacity{}
+/** End-Udacity **/
+
+/** One-Million **/
+.omac {
+  background: #fafbf6;
+  color: #0d0f39;
+  padding-bottom: 5px;
+  
+  }
+  .omac-info {
+    width: 80%;
+    float: left;
+  }
+  img {width: 20%;}
+  .icons-omac i {
+    color: #0e0e0e;
+    font-size: 1.5em
+  }
+/** End-One-Million **/
+
+/** About-Us **/
+.aboutUs {
+  background: linear-gradient(90deg,#02cbba, #838ec8);
+  color: #fff
+  }
+  .carts {display: flex;}
+  .cart {
+    width: 25%;
+    height: 350px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .overflow-cart {
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: rgba(0,0,0,.0);
+    transition: all 550ms linear;
+  }
+  .overflow-cart:hover {background-color: rgba(0,0,0,.0);}
+  .info-cart
+  {
+    height: 50%;
+    font-size: 1.4em;
+    position: relative;
+    top: 50%;
+    left: 0; 
+    overflow: hidden;
+    transition: all 1s linear;
+  }
+  .info-cart:hover
+  {
+    background:linear-gradient(90deg,#02cbba, #838ec8);
+    opacity: 0.8;
+    color: #fff;
+    padding: 4%;
+  }
+  .fab
+  {
+    padding: 0;
+    margin: 0;
+  }
+  .container-carts
+  {
+    margin:0 -13%;
+  }
+  .img1{
+    background-image: url(../images/a-abdallah.jpg);
+  }
+  .img2{
+    background-image: url(../images/a-alrifai.jpg);
+  }
+  .img3{
+    background-image: url(../images/m-diab.jpg);
+  }
+  .img4{
+    background-image: url(../images/r-bhere.jpg);
+  }
+/** End-About-Us **/
+
+/** Responsive **/
+@media (max-width: 920px) {
+  .udacity{
+      color: #fff;
+      width: 100%;
+      height: 550px;
+      background:linear-gradient(90deg,#02cbba, #838ec8),none;
+      font-size: 1em;
+  }
+}
+
+/** End-Responsive **/

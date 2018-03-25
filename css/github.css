@@ -1,0 +1,72 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body
+{   
+  width: 100%;
+  background: #E6E6E6;
+  user-select: none;
+  font-family: 'Roboto Mono', monospace;
+}
+span
+{
+  font-size: .8em;
+  color: #5a5a5a;
+}
+a
+{
+  color: #2196F3;
+  font-size: 1em;
+}
+
+div
+{
+  padding: 10px;
+}
+li
+{
+  color: #E91E63;
+  padding:7px;
+  list-style: none;
+}
+.container
+{
+  margin:0 6%;
+  text-align:left;
+}
+.courses
+{
+  background-color: #5a5a5a;
+  font-size: 2em;
+  text-align: center;
+  color:#fff;
+  margin-bottom: 30px;
+  transition: all 1s linear;
+}
+.address
+{
+  padding:15px;
+  font-size: 1.5em;
+  color: #24292E;
+  position: relative;
+  top :27px;
+}
+
+.box
+{
+  background-color: #fbfbfb;
+  padding:30px;
+  font-size:1.2em;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-device-width: 768px) {
+.container
+{
+  margin:0 15%;
+}
+}
